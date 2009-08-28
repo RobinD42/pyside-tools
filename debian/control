@@ -8,6 +8,6 @@ Homepage: http://www.pyside.org/
 
 Package: pyside-tools
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}, pyside-qt4
 Description: Developement tools for PySide
  Development tools for PySide, like the UI and resource compilers.
