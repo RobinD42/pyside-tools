@@ -1,0 +1,13 @@
+Source: pyside-tools
+Section: python
+Priority: extra
+Maintainer: Lauro Moura <contact@pyside.org>
+Build-Depends: cdbs, debhelper (>= 7), python-dev (>= 2.5)
+Standards-Version: 3.8.0
+Homepage: http://www.pyside.org/
+
+Package: pyside-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}
+Description: UI compiler for pyside
+ PyUIC converts .ui files into Python code.
