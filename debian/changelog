@@ -1,3 +1,11 @@
+pyside-tools (0.1.2-0pyside0~ppa3) unstable; urgency=low
+
+  * Release 0.1.2
+  * Added pyside-lupdate tool
+  * Added XS-Python-Version to control (used while PySide supports only one python version)
+
+ -- Lauro Moura <lauro.neto@openbossa.org>  Fri, 23 Oct 2009 16:55:38 -0300
+
 pyside-tools (0.1) unstable; urgency=low
 
   * Initial Release.

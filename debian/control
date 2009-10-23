@@ -2,12 +2,14 @@ Source: pyside-tools
 Section: python
 Priority: extra
 Maintainer: Lauro Moura <contact@pyside.org>
-Build-Depends: cdbs, debhelper (>= 7), python-dev (>= 2.5), cmake (>= 2.6), libqt4-dev (>= 4.5.0)
+Build-Depends: cdbs, debhelper (>= 7), python-all-dev (>= 2.5), cmake (>= 2.6), libqt4-dev (>= 4.5.0)
+XS-Python-Version: 2.6
 Standards-Version: 3.8.0
 Homepage: http://www.pyside.org/
 
 Package: pyside-tools
 Architecture: any
+XB-Python-Version: ${python:Versions}
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}, pyside-qt4
 Description: Developement tools for PySide
  Development tools for PySide, like the UI and resource compilers.
